@@ -1,10 +1,16 @@
 {
   "en": {
-    "welcomeText": "Empowering Small Businesses with Custom Software Solutions ",
-    "description": "This is an example of a multilingual page."
+    "welcomeText": "Empowering Small Businesses with Custom Software Solutions",
+    "aboutMenuText": "About",
+    "homeMenuText": "Home",
+    "servicesMenuText": "Services",
+    "contactMenuText": "Contact"
   },
   "he": {
     "welcomeText": "מעצימים עסקים קטנים עם פתרונות תוכנה מותאמים אישית",
-    "description": "Ceci est un exemple de page multilingue."
+    "aboutMenuText": "מי אנחנו",
+    "homeMenuText": "ראשי",
+    "servicesMenuText": "שירותים",
+    "contactMenuText": "צרו קשר"
   }
 }
