@@ -55,6 +55,7 @@
             function applyTranslations(translations) {
                 elementsToTranslate.forEach(id => {
                     const element = document.getElementById(id);
+                    console.log("ID: " + id + "  element:" + element);
                     if (element && translations[id]) {
                         element.textContent = translations[id];
                     }
