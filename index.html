@@ -30,8 +30,6 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const translationsFile = "localization.json"; // Path to your JSON file
-            const elementsToTranslate = ["welcomeText", "description"]; // IDs of elements to translate
-
             const languageSelector = document.getElementById("language-selector");
 
             // Load translations from the JSON file
@@ -53,15 +51,16 @@
 
             // Function to apply translations to elements
             function applyTranslations(translations) {
-                elementsToTranslate.forEach(id => {
+                Object.keys(translations).forEach(id => {
                     const element = document.getElementById(id);
                     console.log("ID: " + id + "  element:" + element);
-                    if (element && translations[id]) {
+                    if (element) {
                         element.textContent = translations[id];
                     }
                 });
             }
         });
+
     </script>
 </head>
 
