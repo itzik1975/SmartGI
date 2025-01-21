@@ -1,0 +1,10 @@
+{
+  "en": {
+    "welcomeText": "Empowering Small Businesses with Custom Software Solutions",
+    "description": "This is an example of a multilingual page."
+  },
+  "he": {
+    "welcomeText": "מעצימים עסקים קטנים עם פתרונות תוכנה מותאמים אישית",
+    "description": "Ceci est un exemple de page multilingue."
+  }
+}
