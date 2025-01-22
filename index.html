@@ -62,7 +62,46 @@
         }
 
         function language_onclick(lng) {
+            console.log("-------------" + lng);
+            switchToRightOrLeft(lng);
             applyTranslations(translations[lng]);
+        }
+
+        function switchToRightOrLeft(lng) {
+            //--------------------------------------------
+            //before:<div class="col-xl-9 text-center text-xl-start" lg-field="text-xl-start:text-xl-end">
+            //after:<div class="col-xl-9 text-center text-xl-end" lg-field="text-xl-start:text-xl-end">
+            const elements = document.querySelectorAll("[lg-field]");
+            console.log(elements);
+            elements.forEach(element => {
+                // Get the value of the 'lg-field' attribute
+                const lgFieldValue = element.getAttribute("lg-field");
+                if (!lgFieldValue) return;
+
+                // Split the value by ":"
+                const [oldClass, newClass] = lgFieldValue.split(":");
+
+                // Check if the element has the old class and replace it with the new class
+                //element.classList.contains(oldClass)
+                if (oldClass && newClass) {
+                    if (lng == "he") {
+                        element.classList.replace(oldClass, newClass);
+                    } else {
+                        element.classList.replace(newClass, oldClass);
+                    }
+                }
+            });
+            //---------------------------------------------
+            console.log("------aSas");
+            const elementsWithDir = document.querySelectorAll("[dir]");
+            console.log(elementsWithDir);
+            elementsWithDir.forEach(el => {
+                if (lng == "he") {
+                    el.setAttribute("dir", "rtl");
+                } else {
+                    el.setAttribute("dir", "ltr");
+                }
+            });
         }
 
     </script>
@@ -493,10 +532,10 @@
 
       <img src="assets/img/cta-bg.jpg" alt="">
 
-      <div class="container">
+      <div class="container" dir="ltr">
 
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-9 text-center text-xl-start">
+          <div class="col-xl-9 text-center text-xl-start" lg-field="text-xl-start:text-xl-end">
             <h3 id="actionCallTitle">You are welcome</h3>
             <p id="actionCallText">You are welcome to contact us with any questions or for advice. We strive to respond to our customers promptly and effectively.</p>
           </div>
