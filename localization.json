@@ -39,7 +39,12 @@
     "serText12": "Debug and resolve issues in existing systems",
     "serText13": "Maintain and enhance older software solutions",
     "serText14": "Connect devices for real-time monitoring and control",
-    "serText15": "Build user-friendly, modern, and responsive websites"
+    "serText15": "Build user-friendly, modern and responsive websites",
+    "serText16": "At SmartGI, we are committed to helping small businesses succeed by providing tailored software solutions that enhance productivity and growth.",
+    "serText17": "Our purpose is to empower small businesses by providing innovative software solutions that simplify operations and drive growth.",
+    "serText18": "We aim to build long-lasting partnerships with our clients, delivering tailored, reliable, and scalable solutions that adapt to their unique business needs.",
+    "serText19": "We specialize in custom software development, web and mobile app creation, and cloud-based solutions, backed by ongoing support to ensure your success.",
+    "serText20": "Founded by experienced software professionals, SmartGI specializes in delivering high-quality, user-friendly solutions for businesses of all sizes."
   },
   "he": {
     "welcomeText": "מעצימים עסקים קטנים עם פתרונות תוכנה מותאמים אישית",
@@ -81,6 +86,11 @@
     "serText12": "איתור ופתרון תקלות והחזרת המערכת לפעולה בזמן קצר",
     "serText13": "תחזוקה ושיפור פתרונות תוכנה ישנים שלא נתמכות יותר",
     "serText14": "חיבור התקנים שונים לניטור ושליטה בזמן אמת",
-    "serText15": "בניית אתרים ידידותיים, מודרניים ורספונסיביים"
+    "serText15": "בניית אתרים ידידותיים, מודרניים ורספונסיביים",
+    "serText16": "ב-SmartGI, אנו מחויבים לעזור לעסקים קטנים להצליח על ידי אספקת פתרונות תוכנה מותאמים אישית המשפרים את הפרודוקטיביות והצמיחה.",
+    "serText17": "המטרה שלנו היא להעצים עסקים קטנים על ידי מתן פתרונות תוכנה חדשניים שמפשטים את הפעילות העסקית ומניעים צמיחה.",
+    "serText18": "אנו שואפים לבנות שותפויות ארוכות טווח עם לקוחותינו, תוך אספקת פתרונות מותאמים, אמינים וניתנים להרחבה, שמותאמים לצרכים העסקיים הייחודיים שלהם.",
+    "serText19": "אנו מתמחים בפיתוח תוכנה מותאמת אישית, יצירת יישומי אינטרנט ונייד, ופתרונות מבוססי ענן, יחד עם תמיכה מתמשכת כדי להבטיח את הצלחתכם.",
+    "serText20": "SmartGI, שנוסדה על ידי אנשי תוכנה מנוסים, מתמחה במתן פתרונות איכותיים וידידותיים למשתמש עבור עסקים בכל הגדלים."
   }
 }
