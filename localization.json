@@ -2,6 +2,8 @@
   "en": {
     "welcomeText": "Empowering Small Businesses with Custom Software Solutions",
     "welcomeTextDetails": "Empowering Small Businesses with Custom Software Solutions",
+    "welcomeTextStart": "Get Started",
+    "aboutUs": "About Us",
     "aboutMenuText": "About",
     "homeMenuText": "Home",
     "servicesMenuText": "Services",
@@ -50,6 +52,8 @@
   "he": {
     "welcomeText": "מעצימים עסקים קטנים עם פתרונות תוכנה מותאמים אישית",
     "welcomeTextDetails": "אנו מחויבים לספק פתרונות תוכנה חדשניים, אמינים וניתנים להרחבה, כדי לעזור לעסקים קטנים לשגשג.",
+    "welcomeTextStart": "בוא נתחיל",
+    "aboutUs": "מי אנחנו",
     "aboutMenuText": "מי אנחנו",
     "homeMenuText": "ראשי",
     "servicesMenuText": "שירותים",
